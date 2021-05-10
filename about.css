@@ -10,13 +10,70 @@
 }
 
 .about-heading {
-  top: 20px;
-  left: 100px;
+  top: 48vw;
+  left: 46vw;
   text-transform: uppercase;
-  text-decoration: underline;
   font-size: 30px;
-  color: darkslategray;
+  color: rgb(71, 77, 77);
+  position: absolute;
 }
 
 .bio {
+  position: absolute;
+  top: 52vw;
+  display: inline-block;
+  margin-right: 7%;
+}
+
+.coding-heading {
+  position: absolute;
+  top: 57vw;
+  left: 50vw;
+  text-transform: uppercase;
+}
+
+.coding {
+  position: absolute;
+  top: 60vw;
+  display: initial;
+  margin-right: 7%;
+}
+
+.hobbies-heading {
+  left: 53%;
+  position: absolute;
+  top: 70vw;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.hobbies {
+  position: absolute;
+  top: 73vw;
+  left: 29vw;
+  margin-right: 6%;
+}
+
+.fun-fact {
+  position: absolute;
+  top: 77vw;
+  left: 52vw;
+  text-transform: uppercase;
+}
+
+.book-icon {
+  position: absolute;
+  left: 47vw;
+  top: 81vw;
+}
+
+.books h3 {
+}
+
+.globe-icon {
+  position: absolute;
+  left: 69vw;
+  top: 81vw;
+}
+.countries h3 {
 }
