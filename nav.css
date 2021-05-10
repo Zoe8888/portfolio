@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-.nav-bar-links {
+.navbar-links {
   display: flex;
   list-style-type: none;
   flex-direction: column;
-  background: #a1d286;
+  background: white;
   position: fixed;
   top: -100%;
   /*   left: -100%; */
@@ -22,12 +22,12 @@
   transition: all 0.3s linear;
 }
 
-.nav-bar-links.active {
+.navbar-links.active {
   top: 0;
   left: 0;
 }
 
-.nav-bar-btn {
+.navbar-button {
   position: fixed;
   top: 0;
   right: 0;
