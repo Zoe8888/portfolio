@@ -21,7 +21,7 @@ body {
 .landing-description {
   display: flex;
   align-items: center;
-  bottom: 0;
+  justify-content: center;
 }
 
 #landing {
@@ -30,14 +30,14 @@ body {
 }
 
 .landing-img {
-  display: flex;
-  align-items: center;
+  position: relative;
+  left: 20vw;
 }
 
 .social-icons {
   position: absolute;
   bottom: 5px;
-  right: 5px;
+  right: 10px;
 }
 
 .social-icons:hover {
