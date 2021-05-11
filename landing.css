@@ -31,13 +31,13 @@ body {
 
 .landing-img {
   position: relative;
-  left: 20vw;
+  left: 27vw;
 }
 
 .social-icons {
   position: absolute;
   bottom: 5px;
-  right: 10px;
+  left: 10px;
 }
 
 .social-icons:hover {
