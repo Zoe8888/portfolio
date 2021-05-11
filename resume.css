@@ -1,0 +1,20 @@
+#resume {
+  height: 100vh;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+}
+
+.school {
+  position: absolute;
+}
+
+.edu-year {
+  position: absolute;
+}
+
+.edu-description {
+  position: fixed;
+}
