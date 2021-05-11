@@ -13,7 +13,7 @@
   position: fixed;
   top: 0;
   right: -100%;
-  width: 14vw;
+  width: 10vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -23,8 +23,13 @@
   transition: all 0.3s linear;
 }
 
-.navbar-link {
+.navbar-link a {
   color: #a1d286;
+  text-decoration: none;
+}
+
+.navbar-link a:hover {
+  color: #9da599;
 }
 
 .navbar-links.active {
