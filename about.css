@@ -2,78 +2,222 @@
   height: 100vh;
 }
 
+.about-header {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2%;
+  margin-top: 44vh;
+  margin-left: 26%;
+  margin-right: 5%;
+}
 .pic {
-  height: 500px;
-  width: 400px;
+  height: 80vh;
+  width: 60vh;
   left: 5px;
-  top: 20px;
+  top: 54vw;
+  position: absolute;
 }
 
 .about-heading {
-  top: 48vw;
-  left: 46vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
   text-transform: uppercase;
   font-size: 30px;
-  color: rgb(71, 77, 77);
-  position: absolute;
 }
 
 .bio {
-  position: absolute;
-  top: 52vw;
-  display: inline-block;
-  margin-right: 7%;
+  font-size: 19px;
+  margin-bottom: 1%;
+}
+
+.hobbies-heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies {
+  font-size: 19px;
+  margin-bottom: 1%;
 }
 
 .coding-heading {
+  text-transform: uppercase;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coding {
+  font-size: 19px;
+  margin-bottom: 1%;
+}
+
+#fun-facts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5px;
+  margin-right: 6%;
+  margin-left: 27%;
+  margin-top: 9vh;
+  padding: 2%;
+  flex-direction: row;
+}
+
+.fun-fact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#book-icon {
+  padding-right: 1%;
+}
+
+.books {
+}
+
+#globe-icon {
+  padding-right: 1%;
+}
+
+.countries {
+}
+
+#cup-icon {
+  padding-right: 1%;
+}
+
+.tea {
+}
+
+#music-icon {
+  padding-right: 1%;
+}
+
+.music {
+}
+
+.testiomials {
+  font-size: 30px;
   position: absolute;
-  top: 57vw;
+  top: 100vw;
   left: 50vw;
   text-transform: uppercase;
 }
 
-.coding {
-  position: absolute;
-  top: 60vw;
-  display: initial;
-  margin-right: 7%;
+#testiomial-1 {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.hobbies-heading {
-  left: 53%;
+.jason {
   position: absolute;
-  top: 70vw;
-  font-size: 1.6rem;
-  text-transform: uppercase;
+  top: 115vw;
+  left: 16vw;
 }
 
-.hobbies {
+.position-j {
   position: absolute;
-  top: 73vw;
-  left: 29vw;
-  margin-right: 6%;
+  top: 117vw;
+  left: 16vw;
 }
 
-.fun-fact {
+.img-j {
   position: absolute;
-  top: 77vw;
-  left: 52vw;
-  text-transform: uppercase;
+  top: 104vw;
+  left: 16vw;
 }
 
-.book-icon {
+.testimonial-j {
   position: absolute;
-  left: 47vw;
-  top: 81vw;
+  top: 119vw;
+  left: 16vw;
+  margin-right: 65%;
 }
 
-.books h3 {
+.godwin {
+  position: absolute;
+  top: 115vw;
+  right: 42vw;
 }
 
-.globe-icon {
+.position-g {
   position: absolute;
-  left: 69vw;
-  top: 81vw;
+  top: 117vw;
+  right: 42vw;
 }
-.countries h3 {
+
+.img-g {
+  position: absolute;
+  border-radius: 50%;
+  top: 104vw;
+  right: 42vw;
+}
+
+.testimonial-g {
+  position: absolute;
+  top: 119vw;
+  left: 42vw;
+  margin-right: 40%;
+}
+
+.ron {
+  position: absolute;
+  top: 115vw;
+  right: 20vw;
+}
+
+.position-r {
+  position: absolute;
+  top: 117vw;
+  right: 19vw;
+}
+
+.img-r {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 104vw;
+  right: 20vw;
+}
+
+.testimonial-r {
+  position: absolute;
+  top: 119vw;
+  left: 66vw;
+  margin-right: 15%;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.social-icons:hover {
+  color: #a1d286;
+  background-color: white;
 }
