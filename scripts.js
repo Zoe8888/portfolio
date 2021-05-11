@@ -1,5 +1,5 @@
 function toggleNavbar() {
-  Document.getElementsByClassName("nav-bar-links")[0].classList.toggle(
+  document.getElementsByClassName("navbar-links")[0].classList.toggle(
     "active"
   );
 }
