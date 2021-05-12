@@ -6,45 +6,45 @@
   -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin-top: 10vh;
+  margin-top: 36vh;
   margin-left: 22%;
   margin-right: 11%;
   height: 120px;
 }
 
 h2.name {
-  left: 6%;
+  left: 27%;
   position: absolute;
-  top: 8%;
+  top: 54vw;
 }
 h2.age {
   position: absolute;
-  left: 42%;
-  top: 8%;
+  left: 54%;
+  top: 54vw;
 }
 
 h2.gender {
   position: absolute;
-  right: 7%;
-  top: 8%;
+  right: 17%;
+  top: 54vw;
 }
 
 h2.star {
   position: absolute;
-  top: 52%;
-  right: 42%;
+  top: 56vw;
+  right: 37%;
 }
 
 h2.nationality {
   position: absolute;
-  top: 53%;
-  left: 6%;
+  top: 56vw;
+  left: 25%;
 }
 
 h2.city {
   position: absolute;
-  right: 7%;
-  top: 51%;
+  right: 14%;
+  top: 56vw;
 }
 
 .about-header {
@@ -62,7 +62,9 @@ h2.city {
 }
 .pic {
   position: absolute;
-  left: -7vw;
+  left: -52px;
+  height: 600px;
+  width: 500px;
 }
 
 .about-heading {
@@ -139,9 +141,9 @@ h2.city {
   padding-left: 1%;
 }
 
-
 #cup-icon {
   padding-right: 1%;
+  padding-left: 1%;
 }
 
 #music-icon {
@@ -160,14 +162,14 @@ h2.city {
   margin-top: 2%;
   margin-right: 11%;
   margin-left: 22%;
-  height: 500px;
+  height: 525px;
 }
 
 .testiomials {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 1%;
+  top: 98vw;
   position: absolute;
 }
 
@@ -182,8 +184,9 @@ h2.city {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 41%;
-  left: 6%;
+  top: 110vw;
+  left: 28%;
+  font-size: 25px;
 }
 
 .position-j {
@@ -191,8 +194,8 @@ h2.city {
   justify-content: center;
   align-items: center;
   position: absolute;
-    top: 47%;
-    left: 6%;
+  top: 112vw;
+  left: 25%;
 }
 
 .img-j {
@@ -203,17 +206,17 @@ h2.city {
   height: 150px;
   width: 150px;
   position: absolute;
-  top: 10%;
-  left: 6%;
+  top: 101vw;
+  left: 28%;
 }
 
 .testimonial-j {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 53%;
-    padding-left: 7%;
-    padding-right: 8%
+  padding-top: 65%;
+  padding-left: 10%;
+  padding-right: 11%;
 }
 
 .godwin {
@@ -221,16 +224,17 @@ h2.city {
   justify-content: center;
   align-items: center;
   position: absolute;
-    top: 41%;
-    left: 39%;
+  top: 110vw;
+  left: 50%;
 }
 
 .position-g {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 47%;
+  top: 112vw;
   position: absolute;
+  left: 47%;
 }
 
 .img-g {
@@ -240,7 +244,7 @@ h2.city {
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  top: 10%;
+  top: 101vw;
   position: absolute;
 }
 
@@ -248,8 +252,8 @@ h2.city {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 60%;
-  padding-left: 7%;
+  padding-top: 72%;
+  padding-left: 18%;
 }
 
 .ron {
@@ -257,8 +261,9 @@ h2.city {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 41%;
-  right: 5%;
+  top: 110vw;
+  right: 16%;
+  font-size: 25px;
 }
 
 .position-r {
@@ -266,8 +271,8 @@ h2.city {
   justify-content: center;
   align-items: center;
   position: absolute;
-    top: 47%;
-    right: 3%;
+  top: 112vw;
+  right: 14%;
 }
 
 .img-r {
@@ -278,17 +283,17 @@ h2.city {
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 9%;
-  right: 6%;
+  top: 101vw;
+  right: 18%;
 }
 
 .testimonial-r {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 64%;
-    padding-left: 29%;
-    padding-right: 13%;
+  padding-top: 68%;
+  padding-left: 22%;
+  padding-right: 14%;
 }
 
 .social-icons {
