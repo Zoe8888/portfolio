@@ -1,3 +1,7 @@
+#about-me {
+  height: 100vh;
+}
+
 .general {
   display: flex;
   flex-direction: column;
@@ -59,6 +63,7 @@ h2.city {
   margin-top: 6vh;
   margin-left: 22%;
   margin-right: 11%;
+  text-align: center;
 }
 .pic {
   position: absolute;
